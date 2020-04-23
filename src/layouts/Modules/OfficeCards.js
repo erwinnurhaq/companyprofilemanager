@@ -14,7 +14,11 @@ export default (props) => {
             <p className="card-text mb-0">Latitude - {office.lat}</p>
             <p className="card-text">Longitude - {office.log}</p>
             <p className="card-title mb-0 font-weight-bold">Office Start Date:</p>
-            <p className="card-text">{office.start}</p>
+            <p className="card-text">{new Date(office.start).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric'
+            })}</p>
         </Card>
     )) : (
             <div className="col p-5">
