@@ -1,0 +1,70 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "address": "1600 Amphitheatre Parkway in Mountain View, California, United States.",
+      "revenue": 9999999,
+      "phoneCode": 1340,
+      "phoneNumber": 123456789
+    },
+    {
+      "id": 2,
+      "name": "Amazon",
+      "address": "410 Terry Ave. North, Seattle, WA",
+      "revenue": 9999999,
+      "phoneCode": 44,
+      "phoneNumber": 123456789
+    },
+    {
+      "id": 3,
+      "name": "Alibaba",
+      "address": "Xixi, Hangzhou. No. 969 West Wen Yi Road, Yuhang District, Hangzhou, Zhejiang.",
+      "revenue": 8888888,
+      "phoneCode": 86,
+      "phoneNumber": 123456789
+    }
+  ],
+  "offices": [
+    {
+      "id": 1,
+      "name": "Hangzhou Binjiang Campus",
+      "lat": 103.12,
+      "log": 20.44,
+      "start": "1997-06-20T05:00:00.000Z",
+      "companyId": 3
+    },
+    {
+      "id": 2,
+      "name": "Hong Kong Office",
+      "lat": 103.12,
+      "log": 20.44,
+      "start": "2020-04-01T05:00:00.000Z",
+      "companyId": 3
+    },
+    {
+      "id": 3,
+      "name": "Taipei City Office",
+      "lat": 103.12,
+      "log": 20.44,
+      "start": "2008-04-12T05:00:00.000Z",
+      "companyId": 3
+    },
+    {
+      "id": 4,
+      "name": "U.S. Office",
+      "lat": 100.12,
+      "log": 22.22,
+      "start": "2020-03-10T05:00:00.000Z",
+      "companyId": 3
+    },
+    {
+      "id": 5,
+      "name": "Main HQ",
+      "lat": 111.23,
+      "log": 21.11,
+      "start": "2000-03-04T05:00:00.000Z",
+      "companyId": 1
+    }
+  ]
+}
