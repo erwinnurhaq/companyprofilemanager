@@ -11,7 +11,6 @@ import Modal from '../components/Modal'
 import { phoneCodeFetch } from '../store/phoneCode'
 import { createCompany, companyFetch, deleteCompany } from '../store/company'
 import { createOffice } from '../store/office'
-import { Redirect, withRouter } from 'react-router'
 
 function Home(props) {
 
